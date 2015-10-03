@@ -1,0 +1,53 @@
+//--------bg-images-----//
+
+header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    background: url(../images/header_bg.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 150px solid #FFF;
+    border-left: 3000px solid transparent;
+}
+header-contact {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    background: url(../images/contact_bg.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header-contact:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 150px solid #FFF;
+    border-left: 3000px solid transparent;
+}

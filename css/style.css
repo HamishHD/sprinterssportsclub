@@ -399,7 +399,8 @@ header:before {
 }
 
 .about_us_p {
-    font-size: 14px;
+    text-align: justify;
+    font-size: 18px;
     line-height: 25px;
     padding-left: 50px;
     font-family: 'Lato', sans-serif;
@@ -1279,7 +1280,7 @@ figure.mix:hover img {
 
 #message.form-control{
     width: 100%;
-    height: 190px;
+    height: 180px;
     padding: 10px;
     padding-bottom: 0;
     border: 0 ;
@@ -1328,7 +1329,39 @@ figure.mix:hover img {
     font-weight: 300;
 }
 
-#company.form-control{
+#dob.form-control{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 4px solid #000;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+#contact.form-control{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 4px solid #000;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+#programme.form-control{
     width: 100%;
     height: 50px;
     padding: 10px;
