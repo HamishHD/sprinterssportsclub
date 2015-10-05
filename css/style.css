@@ -8,6 +8,7 @@
 *   
 */
 
+
 /* ================================================
    TABLE OF CONTENTS
    ------------------------------------------------
@@ -28,9 +29,11 @@
     Footer
    ================================================  */
 
+
 /*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -48,7 +51,12 @@ a {
     font-weight: 300;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Lato', sans-serif;
 }
 
@@ -79,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .section_overlay {
-     background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     background-repeat: repeat;
     top: 0;
     left: 0;
@@ -108,11 +116,11 @@ h1,h2,h3,h4,h5,h6 {
     -moz-transition: all 450ms ease-out 0;
     -o-transition: all 450ms ease-out 0;
     transition: all 450ms ease-out 0;
-    -webkit-transform: rotateY(180deg) scale(0.5,0.5);
-    -moz-transform: rotateY(180deg) scale(0.5,0.5);
-    -ms-transform: rotateY(180deg) scale(0.5,0.5);
-    -o-transform: rotateY(180deg) scale(0.5,0.5);
-    transform: rotateY(180deg) scale(0.5,0.5);
+    -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+    -moz-transform: rotateY(180deg) scale(0.5, 0.5);
+    -ms-transform: rotateY(180deg) scale(0.5, 0.5);
+    -o-transform: rotateY(180deg) scale(0.5, 0.5);
+    transform: rotateY(180deg) scale(0.5, 0.5);
 }
 
 .btn {
@@ -132,7 +140,10 @@ h1,h2,h3,h4,h5,h6 {
     transition: all 300ms ease-in-out;
 }
 
-.btn:hover,.btn:active,.btn:focus,.btn-default.active {
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn-default.active {
     background-color: #000000;
     padding: 12px 40px;
     outline: 4px solid #000000;
@@ -144,6 +155,7 @@ h1,h2,h3,h4,h5,h6 {
 .btn-white {
     color: #FFF;
 }
+
 
 /*----------------------------------------------------------------
     Navigation Bar
@@ -165,7 +177,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default.navbar-shrink {
     padding: 5px 0;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .navbar-default.navbar-shrink .navbar-brand {
@@ -180,10 +192,12 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 10px;
 }
 
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
     outline: 0;
     color: #ccc;
 }
+
 
 /*----------------------------------------------------------------
     Header
@@ -241,7 +255,7 @@ header:before {
 }
 
 .headline.loading-bar .words-wrapper::after {
-/* loading bar */
+    /* loading bar */
     content: '';
     position: absolute;
     left: 0;
@@ -375,6 +389,7 @@ header:before {
     border-radius: 3px;
 }
 
+
 /*----------------------------------------------------------------
     About
 ----------------------------------------------------------------*/
@@ -430,6 +445,7 @@ header:before {
     padding-bottom: 100px;
 }
 
+
 /*----------------------------------------------------------------
     Team
 ----------------------------------------------------------------*/
@@ -482,11 +498,11 @@ header:before {
 .member-thumb:hover .overlay {
     cursor: pointer;
     opacity: 0.8;
-    -webkit-transform: rotateY(0deg) scale(1,1);
-    -moz-transform: rotateY(0deg) scale(1,1);
-    -ms-transform: rotateY(0deg) scale(1,1);
-    -o-transform: rotateY(0deg) scale(1,1);
-    transform: rotateY(0deg) scale(1,1);
+    -webkit-transform: rotateY(0deg) scale(1, 1);
+    -moz-transform: rotateY(0deg) scale(1, 1);
+    -ms-transform: rotateY(0deg) scale(1, 1);
+    -o-transform: rotateY(0deg) scale(1, 1);
+    transform: rotateY(0deg) scale(1, 1);
 }
 
 .team-member:hover h4 {
@@ -515,7 +531,7 @@ header:before {
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(255,255,255,0.55);
+    background-color: rgba(255, 255, 255, 0.55);
     padding: 7px;
 }
 
@@ -538,6 +554,7 @@ header:before {
     height: 100%;
     border-top: 5px solid #efc337;
 }
+
 
 /*----------------------------------------------------------------
     Portfolio
@@ -588,7 +605,8 @@ header:before {
     letter-spacing: 3px;
 }
 
-.work-filter ul li a:hover,.work-filter ul li a.active {
+.work-filter ul li a:hover,
+.work-filter ul li a.active {
     color: #efc337;
     text-decoration: none;
 }
@@ -614,7 +632,6 @@ header:before {
 
 figure.mix figcaption {
     padding: 20%;
-    
     -webkit-transition: background-color .35s;
     transition: background-color .35s;
 }
@@ -628,7 +645,8 @@ figure.mix figcaption::before {
     content: '';
 }
 
-figure.mix figcaption,figure.mix figcaption > a {
+figure.mix figcaption,
+figure.mix figcaption > a {
     position: absolute;
     top: 0;
     left: 0;
@@ -636,8 +654,12 @@ figure.mix figcaption,figure.mix figcaption > a {
     height: 100%;
 }
 
+
 /* Anchor will cover the whole item by default */
+
+
 /* For some effects it will show as a button */
+
 figure.mix figcaption > a {
     z-index: 1000;
     text-indent: 200%;
@@ -662,7 +684,8 @@ figure.mix a:hover {
     text-decoration: none;
 }
 
-figure.mix figcaption::before,figure.mix p {
+figure.mix figcaption::before,
+figure.mix p {
     opacity: 0;
     -webkit-transition: opacity .35s 0 .35s;
     transition: opacity .35s transform .35s;
@@ -670,7 +693,8 @@ figure.mix figcaption::before,figure.mix p {
     transform: scale(0);
 }
 
-figure.mix:hover figcaption::before,figure.mix:hover p {
+figure.mix:hover figcaption::before,
+figure.mix:hover p {
     letter-spacing: 3px;
     font-size: 13px;
     font-weight: 300;
@@ -688,6 +712,7 @@ figure.mix:hover figcaption {
 figure.mix:hover img {
     opacity: 0.4;
 }
+
 
 /*----------------------------------------------------------------
     Features
@@ -758,6 +783,7 @@ figure.mix:hover img {
     letter-spacing: 1px;
     font-weight: 300;
 }
+
 
 /*----------------------------------------------------------------
     Skills
@@ -846,7 +872,9 @@ figure.mix:hover img {
     width: 100%;
 }
 
-.percent,.count-number,.count-number-done {
+.percent,
+.count-number,
+.count-number-done {
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -855,7 +883,9 @@ figure.mix:hover img {
     letter-spacing: 3px;
 }
 
-.text-light .percent,.text-light .count-number,.text-light .count-number-done {
+.text-light .percent,
+.text-light .count-number,
+.text-light .count-number-done {
     color: #fff;
 }
 
@@ -863,13 +893,15 @@ figure.mix:hover img {
     content: '%';
 }
 
-.chart-title,.count-subject {
+.chart-title,
+.count-subject {
     font-weight: 400;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 3px;
     color: #fff;
 }
+
 
 /*----------------------------------------------------------------
     Pricing
@@ -947,7 +979,7 @@ figure.mix:hover img {
 }
 
 .pricing .plan {
-    border:5px solid #EFC337;
+    border: 5px solid #EFC337;
 }
 
 .pricing .plan li.plan-name {
@@ -978,6 +1010,7 @@ figure.mix:hover img {
     font-size: 12px;
     font-weight: 300;
 }
+
 
 /*----------------------------------------------------------------
     Facts
@@ -1059,6 +1092,7 @@ figure.mix:hover img {
     font-family: 'PT Mono';
     line-height: 0.34;
 }
+
 
 /*----------------------------------------------------------------
     Blog news
@@ -1149,7 +1183,7 @@ figure.mix:hover img {
 ----------------------------------------------------------------*/
 
 .clients {
-	background: url(../images/clients.jpg) center center no-repeat;
+    background: url(../images/clients.jpg) center center no-repeat;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -1215,6 +1249,7 @@ figure.mix:hover img {
     margin-bottom: 70px;
 }
 
+
 /*----------------------------------------------------------------
     Contact
 ----------------------------------------------------------------*/
@@ -1273,16 +1308,16 @@ figure.mix:hover img {
     font-size: 60px;
 }
 
-.contact-form{
+.contact-form {
     margin-top: 50px;
 }
 
-#message.form-control{
+#message.form-control {
     width: 100%;
-    height: 190px;
+    height: 180px;
     padding: 10px;
     padding-bottom: 0;
-    border: 0 ;
+    border: 0;
     box-shadow: none;
     background: transparent;
     border-bottom: 4px solid #000;
@@ -1294,7 +1329,7 @@ figure.mix:hover img {
     border-radius: 0px;
 }
 
-#email.form-control{
+#email.form-control {
     width: 100%;
     height: 50px;
     padding: 10px;
@@ -1311,7 +1346,7 @@ figure.mix:hover img {
     font-weight: 300;
 }
 
-#name.form-control{
+#name.form-control {
     width: 100%;
     height: 50px;
     padding: 10px;
@@ -1328,7 +1363,7 @@ figure.mix:hover img {
     font-weight: 300;
 }
 
-#company.form-control{
+#dob.form-control {
     width: 100%;
     height: 50px;
     padding: 10px;
@@ -1344,6 +1379,41 @@ figure.mix:hover img {
     letter-spacing: 1px;
     font-weight: 300;
 }
+
+#contact.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 4px solid #000;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#programme.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 4px solid #000;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
 
 /*----------------------------------------------------------------
     Subscribe
@@ -1451,6 +1521,7 @@ figure.mix:hover img {
     text-decoration: none;
 }
 
+
 /*----------------------------------------------------------------
    Footer
 ----------------------------------------------------------------*/
@@ -1480,6 +1551,7 @@ footer {
     font-weight: 600;
     text-decoration: none;
 }
+
 
 /*----------------------------------------------------------------
     Single Portfolio Page
@@ -1614,6 +1686,3 @@ footer {
     color: #000;
     text-decoration: none;
 }
-
-
-

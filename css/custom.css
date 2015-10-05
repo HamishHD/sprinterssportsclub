@@ -1,6 +1,7 @@
 //--------bg-images-----//
-header {
-    position: relative;
+
+/*header {
+    position: initial;
     width: 100%;
     overflow: hidden;
     height: 100%;
@@ -24,9 +25,9 @@ header:before {
     background-size: cover;
     border-bottom: 150px solid #FFF;
     border-left: 3000px solid transparent;
-}
+}*/
 
-.header-contact {
+.header contact {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -38,7 +39,7 @@ header:before {
     background-size: cover;
 }
 
-.header-contact:before {
+.header contact:before {
     content: "";
     position: absolute;
     z-index: 1;
@@ -57,4 +58,108 @@ header:before {
 .logo-size {
     margin-top: -4%;
     width: 20%;
+}
+
+
+/*----- Tabs -----*/
+
+.tabs {
+    width: 100%;
+    display: inline-block;
+    padding: 5%;
+}
+
+
+/*----- Tab Links -----*/
+
+
+/* Clearfix */
+
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.tab-links li {
+    margin: 0px 5px;
+    float: left;
+    list-style: none;
+}
+
+.tab-links a {
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background: #fff;
+    ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #efc337;
+    transition: all linear 0.15s;
+}
+
+.tab-links a:hover {
+    background: #fff;
+    text-decoration: none;
+}
+
+li.active a,
+li.active a:hover {
+    background: #fff;
+    color: #4c4c4c;
+}
+
+
+/*----- Content of Tabs -----*/
+
+.tab-content {
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.tab p {
+    font-size: 20px;
+}
+
+.tab img {
+    padding: 5%;
+    width: 100%;
+}
+
+
+/*tab-close*/
+
+.team h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #000;
+    line-height: 2em;
+    margin-bottom: 0px;
+}
+
+.team p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.team img {
+    width: 70%;
+}
+
+.pad {
+    padding: 2%;
 }
