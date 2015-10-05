@@ -1,5 +1,4 @@
 //--------bg-images-----//
-
 header {
     position: relative;
     width: 100%;
@@ -26,7 +25,8 @@ header:before {
     border-bottom: 150px solid #FFF;
     border-left: 3000px solid transparent;
 }
-header-contact {
+
+.header-contact {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -37,7 +37,8 @@ header-contact {
     -o-background-size: cover;
     background-size: cover;
 }
-header-contact:before {
+
+.header-contact:before {
     content: "";
     position: absolute;
     z-index: 1;
@@ -50,4 +51,10 @@ header-contact:before {
     background-size: cover;
     border-bottom: 150px solid #FFF;
     border-left: 3000px solid transparent;
+}
+
+//------logo-----//
+.logo-size {
+    margin-top: -4%;
+    width: 20%;
 }
