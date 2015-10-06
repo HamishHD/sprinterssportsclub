@@ -23,7 +23,7 @@ header:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    border-bottom: 150px solid #FFF;
+    border-bottom: 150px solid #FFF
     border-left: 3000px solid transparent;
 }*/
 
@@ -92,11 +92,11 @@ header:before {
     display: inline-block;
     border-radius: 3px 3px 0px 0px;
     background: #fff;
-    ;
     font-size: 16px;
     font-weight: 600;
     color: #efc337;
     transition: all linear 0.15s;
+    letter-spacing: 2px;
 }
 
 .tab-links a:hover {
@@ -129,7 +129,9 @@ li.active a:hover {
 }
 
 .tab p {
-    font-size: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+/*    font-size: 20px;*/
 }
 
 .tab img {
@@ -142,8 +144,8 @@ li.active a:hover {
 
 .team h3 {
     text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 2px;
     font-weight: 900;
     color: #000;
     line-height: 2em;
