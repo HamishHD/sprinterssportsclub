@@ -172,7 +172,6 @@ header.head_bg {
   -o-background-size: cover;
   background-size: cover;
   background: url(../images/sprint.jpg) center center no-repeat;
-  height: 60vh;
 }
 header.about_bg {
   position: relative;
@@ -184,7 +183,6 @@ header.about_bg {
   -o-background-size: cover;
   background-size: cover;
   background: url(../images/skills.jpg) center center no-repeat;
-  height: 60vh;
 }
 header.program_bg {
   position: relative;
@@ -196,7 +194,6 @@ header.program_bg {
   -o-background-size: cover;
   background-size: cover;
   background: url(../images/features.jpg) center center no-repeat;
-  height: 60vh;
 }
 header.gallery_bg {
   position: relative;
@@ -208,7 +205,6 @@ header.gallery_bg {
   -o-background-size: cover;
   background-size: cover;
   background: url(../images/single_project_bg.jpg) center center no-repeat;
-  height: 60vh;
 }
 header.team_bg {
   position: relative;
@@ -220,7 +216,6 @@ header.team_bg {
   -o-background-size: cover;
   background-size: cover;
   background: url(../images/header_bg1.jpg) center center no-repeat;
-  height: 60vh;
 }
 header.player_bg {
   position: relative;
@@ -232,7 +227,6 @@ header.player_bg {
   -o-background-size: cover;
   background-size: cover;
   background: url(../images/clients.jpg) center center no-repeat;
-  height: 60vh;
 }
 header.contact_bg {
   position: relative;
@@ -243,7 +237,7 @@ header.contact_bg {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url(../images/contact_bg.jpg) center center no-repeat !important;
+  background: url(../images/contact_bg.jpg) center center no-repeat;
 }
 .prog_pad {
   padding: 10px;

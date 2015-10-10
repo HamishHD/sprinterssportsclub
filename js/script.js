@@ -84,9 +84,16 @@ $(document).ready(
                                 $(".click_it").css('color', "#efc337");
                                 $(this).css("color", "black");
                                 $('.tab').fadeOut();
-                                $($(this).attr("href")).fadeIn();
+                                $("#" + $(this).attr("aria-controls")).fadeIn();
                             
                             });
+
+$(".filter").click(function(){
+    $("" + $(this).attr("data-filter")).hide();
+   
+    
+});
+
 
 new WOW().init();
 
