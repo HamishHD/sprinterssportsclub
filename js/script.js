@@ -71,12 +71,22 @@ $(document).ready(
     	horizrailenabled: "false",
     	cursorborderradius: "0px"
     });
+      
+    
     
     // portfolio filtering
 
     $(".project-wrapper").mixItUp();
 
 });
+
+ $(".click_it").click(function() {
+                                $(".click_it").css('color', "#efc337");
+                                $(this).css("color", "black");
+                                $('.tab').fadeOut();
+                                $($(this).attr("href")).fadeIn();
+                            
+                            });
 
 new WOW().init();
 

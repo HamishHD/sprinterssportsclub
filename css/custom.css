@@ -135,9 +135,9 @@ li.active a:hover {
 }
 
 .tab img {
-/*    padding: 5%;*/
+    padding: 5%;
     width: 100%;
-    box-shadow: 5px 5px 20px;
+/*    box-shadow: 5px 5px 20px;*/
 }
 
 
