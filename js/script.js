@@ -64,13 +64,13 @@ $(document).ready(
 
   function() { 
 
-    $("html").niceScroll({
+   /* $("html").niceScroll({
     	cursorcolor:"#000",
     	scrollspeed :"30",
     	cursorborder:"1px solid #000",
     	horizrailenabled: "false",
     	cursorborderradius: "0px"
-    });
+    });*/
       
     
     
@@ -81,18 +81,20 @@ $(document).ready(
 });
 
  $(".click_it").click(function() {
-                                $(".click_it").css('color', "#efc337");
-                                $(this).css("color", "black");
+                                $(".click_it").css('color', "black");
+                                $(this).css("color", "#efc337");
                                 $('.tab').fadeOut();
                                 $("#" + $(this).attr("aria-controls")).fadeIn();
                             
                             });
 
-$(".filter").click(function(){
-    $("" + $(this).attr("data-filter")).hide();
+//$(".filter").click(function(){
+//    $("" + $(this).attr("data-filter")).fadeIn();
+//    var fil = $(this).attr("data-filter");
+//    $(".mix").not(fil).fadeOut('fast'); 
+//});
    
-    
-});
+
 
 
 new WOW().init();
