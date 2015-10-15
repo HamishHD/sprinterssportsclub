@@ -27,10 +27,9 @@ h6 {
 }
 
 .abtus h2 {
-    font-size: 14px;
     color: #333;
-    letter-spacing: 2px;
     font-weight: 300;
+    .font_space;
 }
 
 .subsc_title p {
@@ -112,42 +111,43 @@ h6 {
     .before_it;
 }
 
-.about_us_p {
+.font_space{
     font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.about_us_p {
+    .font_space;
     line-height: 25px;
     padding-left: 50px;
     font-family: @font;
     padding-top: 20px;
-    letter-spacing: 2px;
+    
 }
 
 .portfolio_p{
-    font-size: 14px;
+    .font_space;
     color: #000;
     line-height: 25px;
-    letter-spacing: 2px;
     font-weight: 400;
 }
 
 .team p {
     font-family: @font;
-    font-size: 14px;
-    letter-spacing: 2px;
+    .font_space;
 }
 
 .detail p {
     color: #777;
-    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 2px;
+    .font_space;
 }
 
 .detail h3 {
-    letter-spacing: 2px;
     color: #777;
     font-weight: 300;
-    font-size: 14px;
+    .font_space;
 }
 
 .countdownnumber{
@@ -173,7 +173,7 @@ header.head_bg {
 
 header.about_bg {
     .bg_image;
-    background: url(../images/skills.jpg) center center no-repeat;
+    background: url(../images/feat1.jpg) center center no-repeat;
     
 }
 
@@ -265,6 +265,7 @@ footer{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    height: 115px;
 }
 
 .navfont{
@@ -272,6 +273,68 @@ footer{
     color: #fff;
     font-size: 14px!important;
     text-transform: capitalize!important;
+}
+
+.player h3 {
+    text-transform: uppercase;
+    .font_space;
+    font-weight: 900;
+    color: #000;
+    line-height: 2em;
+    margin-bottom: 0px;
+}
+
+.player p {
+    font-family: 'Lato', sans-serif;
+    .font_space;
+}
+
+.player img{
+    width:70%;
+    margin-top: 10px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.player_desc{
+    background-color: #EFC337;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.player_text p{
+    font-family: 'Lato', sans-serif;
+    .font_space;
+    position: absolute;
+    margin-left:-10px;
+    top: 50px;
+    width: 70%;
+}
+
+.player_text{
+   display: none ;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    -webkit-transition:  all 4s;
+    transition: all 4s;
+    
+}
+
+//.player img:hover~.player_text{
+//    display: block;
+//    margin-top: -300px;
+//    
+//}
+
+.player img:hover{
+    opacity: 0.1;
+    
+    
 }
 
 @media (max-width: 992px){

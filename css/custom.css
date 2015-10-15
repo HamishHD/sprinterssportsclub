@@ -161,6 +161,10 @@ li.active a:hover {
 
 .team img {
     width: 70%;
+    margin-top: 10px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 .pad {

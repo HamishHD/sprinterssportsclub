@@ -22,10 +22,10 @@ h6 {
   font-family: 'Lato', sans-serif;
 }
 .abtus h2 {
-  font-size: 14px;
   color: #333;
-  letter-spacing: 2px;
   font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 .subsc_title p {
   font-family: 'Lato', sans-serif;
@@ -150,19 +150,23 @@ h6 {
   border-top: 194px solid #FFF;
   border-right: 3000px solid transparent;
 }
+.font_space {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
 .about_us_p {
   font-size: 14px;
+  letter-spacing: 2px;
   line-height: 25px;
   padding-left: 50px;
   font-family: 'Lato', sans-serif;
   padding-top: 20px;
-  letter-spacing: 2px;
 }
 .portfolio_p {
   font-size: 14px;
+  letter-spacing: 2px;
   color: #000;
   line-height: 25px;
-  letter-spacing: 2px;
   font-weight: 400;
 }
 .team p {
@@ -172,16 +176,16 @@ h6 {
 }
 .detail p {
   color: #777;
-  font-size: 14px;
   font-weight: 400;
   line-height: 25px;
+  font-size: 14px;
   letter-spacing: 2px;
 }
 .detail h3 {
-  letter-spacing: 2px;
   color: #777;
   font-weight: 300;
   font-size: 14px;
+  letter-spacing: 2px;
 }
 .countdownnumber {
   display: inline;
@@ -214,7 +218,7 @@ header.about_bg {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url(../images/skills.jpg) center center no-repeat;
+  background: url(../images/feat1.jpg) center center no-repeat;
 }
 header.program_bg {
   position: relative;
@@ -321,12 +325,62 @@ footer {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  height: 115px;
 }
 .navfont {
   letter-spacing: 2px!important;
   color: #fff;
   font-size: 14px!important;
   text-transform: capitalize!important;
+}
+.player h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: #000;
+  line-height: 2em;
+  margin-bottom: 0px;
+}
+.player p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.player img {
+  width: 70%;
+  margin-top: 10px;
+  filter: gray;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+.player_desc {
+  background-color: #EFC337;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+.player_text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-left: -10px;
+  top: 50px;
+  width: 70%;
+}
+.player_text {
+  display: none ;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  -webkit-transition: all 4s;
+  transition: all 4s;
+}
+.player img:hover {
+  opacity: 0.1;
 }
 @media (max-width: 992px) {
   .tik {
