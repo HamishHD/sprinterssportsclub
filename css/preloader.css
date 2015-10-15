@@ -12,7 +12,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #efc337;
     /* change if the mask should have another color then white */
     z-index: 99;
     /* makes sure it stays on top */
@@ -24,10 +24,10 @@ body {
   height: 240px;
   margin: 2% auto;
     margin-top:12%;
-    background: url(../images/sprite/running.png) left center  ;
-     animation: play .8s steps(10) infinite;
+    background: url(../images/sprintersprite.png) left center  ;
+     animation: play .6s steps(6) infinite;
    
 }
 @keyframes play {
-   100% { background-position: -1900px; }
+   100% { background-position: -1140px; }
 }
