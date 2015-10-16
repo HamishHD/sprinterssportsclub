@@ -14,7 +14,7 @@ body {
     bottom: 0;
     background-color: #efc337;
     /* change if the mask should have another color then white */
-    z-index: 99;
+    z-index: 1100;
     /* makes sure it stays on top */
 }
 
