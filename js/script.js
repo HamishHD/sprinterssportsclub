@@ -82,7 +82,7 @@ $(document).ready(
 
  $(".click_it").click(function() {
                                 $(".click_it").css('color', "black");
-                                $(this).css("color", "#efc337");
+                                $(this).css("color", "white");
                                 $('.tab').fadeOut();
                                 $("#" + $(this).attr("aria-controls")).fadeIn();
                             
