@@ -114,10 +114,10 @@ h6 {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/starmedal.jpg) center center no-repeat;
 }
 .starplayer:after {
@@ -203,10 +203,10 @@ header.head_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/sprint.jpg) center center no-repeat;
 }
 header.about_bg {
@@ -214,10 +214,10 @@ header.about_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/feat1.jpg) center center no-repeat;
 }
 header.program_bg {
@@ -225,10 +225,10 @@ header.program_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/features.jpg) center center no-repeat;
 }
 header.gallery_bg {
@@ -236,10 +236,10 @@ header.gallery_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/gallery_bg.jpg) center center no-repeat;
 }
 header.team_bg {
@@ -247,10 +247,10 @@ header.team_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/team_bg.jpg) center center no-repeat;
 }
 header.player_bg {
@@ -258,10 +258,10 @@ header.player_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/players_bg.jpg) center center no-repeat;
 }
 header.contact_bg {
@@ -269,10 +269,10 @@ header.contact_bg {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background: url(../images/contact_bg.jpg) center center no-repeat;
 }
 .prog_pad {
@@ -309,16 +309,17 @@ footer {
   position: absolute;
   width: 100%;
   background: url(../images/footer.jpg) center center no-repeat;
+  background-size: 100%;
 }
 .bg_image {
   position: relative;
   width: 100%;
   overflow: hidden;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
 .team_desc {
   background-color: #EFC337;
@@ -575,6 +576,9 @@ a.waves-effect .waves-ripple {
 .ntc_border {
   width: 100%;
   border-right: #999 1px solid;
+}
+.act {
+  color: #efc337!important;
 }
 @media (max-width: 991px) {
   .ntc_border {

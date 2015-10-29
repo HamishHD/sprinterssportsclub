@@ -1,39 +1,38 @@
 <?php
-	header('Content-type: application/json');
-	$status = array(
-		'type'=>'success',
-		'message'=>'Thank you for contacting us. As early as possible  we will contact you '
-	);
-
-    $name = $_POST['name']; 
-    if($_POST['email'] != '')
+	 header("Access-Control-Allow-Origin: *");
+	
+    $name= $_GET['name'];
+    
+    if($_GET['email'] != '')
     {
-        $email = $_POST['email'];
-        $name = $_POST['name'];
-    	$dob = $_POST['dob'];
-    	$contact = $_POST['contact'];
-    	$programme = $_POST['programme'];
+        $email = $_GET['email'];
+        $name = $_GET['name'];
+    	$dob = $_GET['dob'];
+    	$contact = $_GET['contact'];
+    	$programme = $_GET['programme'];
     	
     	$email_from = $email;
     };
     
-    $message = $_POST['message'];
-    $email_to = $_POST['to'];
-
+    $message = $_GET['message'];
+    $email_to = 'adarsh.pixolo@gmail.com';
     
-
-    if($_POST['email'] != '')
-    {
-        $body = 'Name: ' . $name . "\n\n" .'Date of Birth'. $dob. "\n\n". 'Email: ' . $email . "\n\n" . 'Phone: ' . $contact . "\n\n" . 'Programme Interested in: ' .$programme. "\n\n" . 'Message: ' . $message;
-        $success = mail($email_to, "INQUIRY", $body, 'From: <'.$email_from.'>');
-        }else{
-        	$body = 'Topic: ' . $name . "\n\n" . 'Message: ' . $message;
-        	$success = mail($email_to, "INQUIRY", $body, 'From: <>');
+    
+    if (mail("adarsh.pixolo@gmail.com","My subject","hey hello", 'From: <'.$email_from.'>')) { 
+            echo '<p>Your message has been sent!</p>';
+        } else { 
+            echo '<p>Something went wrong, go back and try again!</p>'; 
         };
 
     
+        $body = 'Name: ' . $name . "\n\n" .'Date of Birth'. $dob. "\n\n". 'Email: ' . $email . "\n\n" . 'Phone: ' . $contact . "\n\n" . 'Programme Interested in: ' .$programme. "\n\n" . 'Message: ' . $message;
+        
+        
+        //print_r(mail($email_to, "INQUIRY", $body, 'From: <'.$email_from.'>'));
+        
 
-    echo json_encode($status);
+    
+
     die;
 
 ?>

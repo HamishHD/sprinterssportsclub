@@ -46,23 +46,52 @@ $(function() {
 
 
   // Contact form
-  var form = $('#main-contact-form');
-  form.submit(function(event){
-    event.preventDefault();
-    var form_status = $('<div class="form_status"></div>');
-    $.ajax({
-      url: $(this).attr('action'),
-      beforeSend: function(){
-        form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
-      }
-    }).done(function(data){
-      form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
-    });
-  });
+// 
 
-$(document).ready(
+ var form = $('#main-contact-form');
+    form.submit(function (event) {
+        event.preventDefault();
+        var formData = {
+            'name': $('input[name=name]').val(),
+            'dob': $('input[name=dob]').val(),
+            'programme': $('input[name=programme]').val(),
+            'contact': $('input[name=contact]').val(),
+            'email': $('input[name=email]').val(),
+            'message': $('#message').val()
+        };
+        
+        console.log(formData);
+        
+        var form_status = $('.form_status');
+        $.ajax({
+            type: 'GET',
+            url: 'http://www.sprinterssportsclub.com/mail.php',
+            data: formData,
+            dataType: 'json',
+            encode: true,
 
-  function() { 
+            beforeSend: function () {
+                form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn();
+            }
+        })
+            .done(function (data) {
+            console.log(data);
+            
+            form_status.html('<p class="text-success">SENT</p>').delay(3000).fadeOut();
+        });
+    })
+
+    
+    
+    
+    /*
+    $data = $_POST['formdata'];
+    $data = json_decode($data);
+    $name = $data['name'];
+    $email = $data['email']
+    */
+
+$(document).ready(function() { 
 
    /* $("html").niceScroll({
     	cursorcolor:"#000",

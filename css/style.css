@@ -174,7 +174,7 @@ h6 {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 3px;
-    color: #000;
+    color: #efc337;
 }
 
 .navbar-default.navbar-shrink {
@@ -600,7 +600,7 @@ header:before {
 .work-filter ul li a {
     color: #000;
     display: block;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     padding: 5px 15px;
     text-transform: uppercase;
