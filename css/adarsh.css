@@ -608,6 +608,7 @@ a.waves-effect .waves-ripple {
   top: 0;
   bottom: 0;
   width: 100%;
+  -webkit-filter: grayscale(1);
 }
 .card .card-image .card-title {
   position: absolute;
@@ -638,6 +639,14 @@ a.waves-effect .waves-ripple {
   height: 100%;
   z-index: 1;
   display: none;
+  transition: top 10s;
+}
+.card:hover .card-reveal {
+  display: block;
+  top: 0%;
+}
+.card-reveal p {
+  font-size: 14px;
 }
 .card .card-reveal .card-title {
   cursor: pointer;

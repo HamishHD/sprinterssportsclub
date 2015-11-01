@@ -81,6 +81,11 @@ form.submit(function (event) {
 })
 
 ////card
+
+//$(".card").mouseover(function(){
+//$(this).find(".card-reveal").css('display','block').css('top','0%');
+//})
+
 //
 //$(document).on('click.card', '.card', function (e) {
 //      if ($(this).find('> .card-reveal').length) {
