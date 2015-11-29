@@ -82,9 +82,12 @@ form.submit(function (event) {
 
 ////card
 
-//$(".card").mouseover(function(){
-//$(this).find(".card-reveal").css('display','block').css('top','0%');
-//})
+$(".card").mouseover(function(){
+$(this).find(".card-reveal").css('top','0%');
+})
+$(".card").mouseout(function(){
+$(this).find(".card-reveal").css('top','100%');
+})
 
 //
 //$(document).on('click.card', '.card', function (e) {

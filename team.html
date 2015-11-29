@@ -133,7 +133,7 @@
             <div class="row blog">
                 <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                     <figure class="blog-thumb">
-                        <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                        <img class="img-responsive" src="images/blog/ravi.jpg" alt="#">
                     </figure>
                     <div class="team_desc">
                         <h3 style="margin-top:0px">Head Coach </h3>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                     <figure class="blog-thumb">
-                        <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                        <img class="img-responsive" src="images/blog/dinesh.jpg" alt="#">
                     </figure>
                     <div class="team_desc">
                         <h3 style="margin-top:0px">Coach  </h3>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                     <figure class="blog-thumb">
-                        <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                        <img class="img-responsive" src="images/blog/ashwini.jpg" alt="#">
                     </figure>
                     <div class="team_desc">
                         <h3 style="margin-top:0px">Coach  </h3>
@@ -171,7 +171,7 @@
                 <div class="row blog">
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                         <figure class="blog-thumb">
-                            <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                            <img class="img-responsive" src="images/blog/tushar.jpg" alt="#">
                         </figure>
                         <div class="team_desc">
                             <h3 style="margin-top:0px" >asst Coach  </h3>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                         <figure class="blog-thumb">
-                            <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                            <img class="img-responsive" src="images/blog/vijay.jpg" alt="#">
                         </figure>
                         <div class="team_desc">
                             <h3 style="margin-top:0px">asst Coach  </h3>
@@ -193,21 +193,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                         <figure class="blog-thumb">
-                            <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
-                        </figure>
-                        <div class="team_desc">
-                            <h3 style="margin-top:0px">asst Coach  </h3>
-                            <p>Swapnil Konda
-                               <!-- <br> (B.Com, M.PEd, MBA)-->
-                                <br> State level athlete</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pad"></div>
-                <div class="row blog">
-                    <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
-                        <figure class="blog-thumb">
-                            <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                            <img class="img-responsive" src="images/blog/hamish.jpg" alt="#">
                         </figure>
                         <div class="team_desc">
                             <h3 style="margin-top:0px">Manager</h3>
@@ -216,6 +202,26 @@
                                 <br>Manager</p>
                         </div>
                     </div>
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
+                        <figure class="blog-thumb">
+                            <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
+                        </figure>
+                        <div class="team_desc">
+                            <h3 style="margin-top:0px">asst Coach  </h3>
+                            <p>Swapnil Konda
+                                
+                                <br> State level athlete</p>
+                        </div>
+                    </div>
+-->
+                </div>
+<!--
+                <div class="pad"></div>
+                <div class="row blog">
+-->
+                    
+<!--
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center team">
                         <figure class="blog-thumb">
                             <img class="img-responsive" src="images/blog/img_1.jpg" alt="#">
@@ -223,10 +229,11 @@
                         <div class="team_desc">
                             <h3 style="margin-top:0px">Football coach</h3>
                             <p>Abhay Amin
-                                <!--<br> (B.Com, M.PEd, MBA)-->
+                                <br> (B.Com, M.PEd, MBA)
                                 <br>Manager</p>
                         </div>
                     </div>
+-->
                 </div>
             <!-- END ROW -->
         </div>
@@ -299,77 +306,8 @@
     <script src="js/numscroller.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/classie.js"></script>
-    <script>
-        $(function () {
-            /* Chart numbers absolute centering */
-
-            var chart = $('.chart'),
-                chartNr = $('.chart-content'),
-                chartParent = chart.parent();
-
-            function centerChartsNr() {
-
-                chartNr.css({
-                    top: (chart.height() - chartNr.outerHeight()) / 2
-                });
-
-            }
-
-            if (chart.length) {
-
-                centerChartsNr();
-                $(window).resize(centerChartsNr);
-
-                chartParent.each(function () {
-
-                    $(this).onScreen({
-                        doIn: function () {
-                            $(this).find('.chart').easyPieChart({
-                                trackWidth: 8,
-                                scaleColor: '#efc337',
-                                lineWidth: 5,
-                                barColor: '#efc337',
-                                size: 130,
-                                trackColor: false,
-                                lineCap: 'square',
-                                animate: 2000,
-                                onStep: function (from, to, percent) {
-                                    $(this.el).find('.percent').text(Math.round(percent));
-                                }
-                            });
-                        },
-                    });
-
-                    $(this).find('.chart').wrapAll('<div class="centertxt" />');
-
-                });
-            }
-        });
-    </script>
-
+    
+        
 </body>
 
 </html>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="http://cdn.mezaa.com/js/inlinekeywords.js"></script>
-<script type="text/javascript" src="http://cdn.mezaa.com/js/pconfig.js"></script>
-<script type="text/javascript">
-    var sndpID = '30002';
-    var sndgID = '{C7EA310B-2BC0-4ADD-8045-E19F47F25187}';
-    var programData = 'Mezaa';
-    var installedDate = '11/30/2014 3:04:03 AM';
-    var ipAddress = "203.188.227.91";
-    //var coupon;
-    //var couponCap;
-    //var isCheckout;
-    var _snd_cdn = "http://cdn.mezaa.com/"; //*** Should add / at end
-    var _snd_logs = "http://l.mezaa.com/stbin/coupon.cgi?";
-    var _snd_reCDN = "http://cdn.mezaa.com/";
-
-    var sndScript = document.createElement('link');
-    sndScript.href = _snd_reCDN + "css/bar.css?v=1.0";
-    sndScript.type = "text/css";
-    sndScript.rel = "stylesheet";
-    document.getElementsByTagName("head")[0].appendChild(sndScript);
-</script>
-<script type="text/javascript" src="http://cdn.mezaa.com/js/deals.js"></script>

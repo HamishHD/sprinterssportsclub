@@ -693,6 +693,7 @@ figure.mix p {
     transition: opacity .35s transform .35s;
     -webkit-transform: scale(0);
     transform: scale(0);
+    
 }
 
 figure.mix:hover figcaption::before,
