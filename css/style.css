@@ -626,10 +626,12 @@ header:before {
     display: block;
     height: auto;
     max-width: 100%;
+/*
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
+*/
 }
 
 figure.mix figcaption {
